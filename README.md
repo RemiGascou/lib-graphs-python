@@ -8,9 +8,7 @@ This is a Python 3.* for implementing graphs
 
 Syntax :
 ```python
-g1 = Graph(listofnodes, listofarcs)
-g1 = Graph(["labelnode_a", "labelnode_b", ...])
-g1 = Graph(["labelnode_a", "labelnode_b", ...], [["labelnode_a", "labelnode_b"], ...])
+g = Graph(listofnodes, listofarcs=[])
 ```
 
 You can create a simple graph like this :

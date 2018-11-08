@@ -4,6 +4,7 @@ from lib import *
 
 
 g1 = Graph(["a", "b", "c", "d", "e"]) #list of node labels of the same type.
+g1.export("graph.png")
 
 g2 = Graph([c for c in "abcdefghijkl"])
 

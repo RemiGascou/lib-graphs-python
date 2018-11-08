@@ -1,5 +1,4 @@
-
-
+# -*- coding: utf-8 -*-
 
 class Node(object):
     """docstring for Node."""

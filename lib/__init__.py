@@ -1,4 +1,4 @@
 
 from lib.Arc import *
 from lib.Graph import *
-from lib.node import *
+from lib.Node import *

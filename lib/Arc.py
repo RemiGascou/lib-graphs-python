@@ -1,5 +1,6 @@
+# -*- coding: utf-8 -*-
 
-
+from lib.Node import *
 
 class Arc(object):
     """docstring for Arc."""

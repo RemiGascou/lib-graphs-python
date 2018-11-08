@@ -1,0 +1,8 @@
+// Exported Graph
+digraph {
+	a [label=<bound method Node.get_description of <lib.Node.Node object at 0x00000292539FF160>>]
+	b [label=<bound method Node.get_description of <lib.Node.Node object at 0x00000292539FF0B8>>]
+	c [label=<bound method Node.get_description of <lib.Node.Node object at 0x00000292539FF1D0>>]
+	d [label=<bound method Node.get_description of <lib.Node.Node object at 0x00000292539FF240>>]
+	e [label=<bound method Node.get_description of <lib.Node.Node object at 0x00000292539FF7F0>>]
+}

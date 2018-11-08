@@ -3,8 +3,8 @@
 from lib import *
 
 
-g1 = Graph(["a", "b", "c", "d", "e"]) #list of node labels of the same type.
-g1.export("graph.png")
+g1 = Graph(["a", "b", "c", "d", "e"], [["a", "b"], ["b", "c"], ["d", "e"], ["b", "e"], ["c", "a"]]) #list of node labels of the same type.
+g1.export("graph.png", fileformat='png')
 
 g2 = Graph([c for c in "abcdefghijkl"])
 

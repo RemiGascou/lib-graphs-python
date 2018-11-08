@@ -1,8 +1,13 @@
 // Exported Graph
 digraph {
-	a [label=<bound method Node.get_description of <lib.Node.Node object at 0x00000292539FF160>>]
-	b [label=<bound method Node.get_description of <lib.Node.Node object at 0x00000292539FF0B8>>]
-	c [label=<bound method Node.get_description of <lib.Node.Node object at 0x00000292539FF1D0>>]
-	d [label=<bound method Node.get_description of <lib.Node.Node object at 0x00000292539FF240>>]
-	e [label=<bound method Node.get_description of <lib.Node.Node object at 0x00000292539FF7F0>>]
+	a [label=a]
+	b [label=b]
+	c [label=c]
+	d [label=d]
+	e [label=e]
+	a -> b [constraint=false]
+	b -> c [constraint=false]
+	d -> e [constraint=false]
+	b -> e [constraint=false]
+	c -> a [constraint=false]
 }

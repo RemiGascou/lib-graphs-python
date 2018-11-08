@@ -2,10 +2,10 @@
 
 from lib.Node import *
 
-class Arc(object):
-    """docstring for Arc."""
+class Edge(object):
+    """docstring for Edge."""
     def __init__(self, nodestart:Node, nodedest:Node):
-        super(Arc, self).__init__()
+        super(Edge, self).__init__()
         self.nodestart = nodestart
         self.nodedest  = nodedest
 

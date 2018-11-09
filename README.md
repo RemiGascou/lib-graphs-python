@@ -21,7 +21,7 @@ g1 = Graph(["a", "b", "c"], [["a", "b"], ["b", "c"], ["c", "a"]])
 
 Let's see three equivalent examples :
 
-*Example 1*
+**Example 1**
 ```python
 g1 = Graph()
 
@@ -34,7 +34,7 @@ g1.add_edge("b", "c")
 g1.add_edge("c", "a")
 ```
 
-*Example 2*
+**Example 2**
 ```python
 g1 = Graph(["a", "b", "c"])
 
@@ -43,7 +43,7 @@ g1.add_edge("b", "c")
 g1.add_edge("c", "a")
 ```
 
-*Example 3*
+**Example 3**
 ```python
 g1 = Graph(["a", "b", "c"], [["a", "b"], ["b", "c"], ["c", "a"]])
 ```

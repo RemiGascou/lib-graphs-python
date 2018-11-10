@@ -2,6 +2,11 @@
 
 This is a Python 3.* for implementing graphs
 
+**Requirements : package graphviz**
+```python
+pip install graphviz
+```
+
 ## General examples
 
 ### Graph creation

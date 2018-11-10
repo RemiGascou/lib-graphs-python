@@ -1,6 +1,6 @@
 # Graphs library in Python 3.*
 
-This is a Python 3.* for implementing graphs
+This is a Python 3.* library for implementing graphs
 
 **Requirements : package graphviz**
 ```python
@@ -13,10 +13,14 @@ pip install graphviz
 
 Syntax :
 ```python
-g = Graph(listofnodes=[], listofnodes=[])
+g = Graph(listOfNodeLabels=[], listOfEdges=[])
 ```
 
-listofnodes and listofnodes are optional
+where:
+- `listOfNodeLabels[]` is a list of strings where each string is the name of a node
+- `listOfEdges=[]` is a list of edges where each edges is a list composed of the start node and the and node
+
+`listOfNodeLabels` and `listOfEdges` are optional
 
 You can create a simple graph like this :
 

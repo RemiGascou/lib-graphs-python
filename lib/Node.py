@@ -2,10 +2,10 @@
 
 class Node(object):
     """docstring for Node."""
-    def __init__(self, label):
+    def __init__(self, label, description=""):
         super(Node, self).__init__()
         self.label       = label
-        self.description = ''
+        self.description = description
 
     def get_label(self):
         return self.label

@@ -28,7 +28,7 @@ class Edge(object):
     def get_nodeStart(self):
         return self.nodeStart
 
-    def get_nodedest(self):
+    def get_nodeDest(self):
         return self.nodeDest
 
 # *-----------------------------------Utils----------------------------------- *

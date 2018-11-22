@@ -1,5 +1,7 @@
 # Graphs library in Python 3.*
 
+![.](https://travis-ci.org/RemiGascou/lib-graphs-python.svg?branch=master)
+
 This is a Python 3.* library for implementing graphs
 
 **Requirements : package graphviz**

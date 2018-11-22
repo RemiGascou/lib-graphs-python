@@ -1,0 +1,30 @@
+all: install
+
+install:
+	pip install --user --upgrade .
+
+clean:
+	-rm *.xml *.egg-info
+	-find . -type f -iname "*.pyc" | xargs -r rm
+	-find . -type d -iname "__pycache__" | xargs -r rm -rf
+	-rm -rf dist build
+
+deploy: clean
+	python setup.py sdist bdist_wheel
+	twine upload dist/*
+
+deploy-test: clean
+	python setup.py sdist bdist_wheel
+	twine upload --repository test dist/*
+
+help:
+	@echo 'Usage:'
+	@echo '  make [TARGET]'
+	@echo
+	@echo 'Targets:'
+	@echo '  test'
+	@echo '  install'
+	@echo '  clean'
+	@echo '  help'
+
+.PHONY: all clean install help
